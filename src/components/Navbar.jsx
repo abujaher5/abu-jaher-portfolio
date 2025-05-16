@@ -11,13 +11,12 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              {" "}
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
-              />{" "}
+              />
             </svg>
           </div>
           <ul
@@ -25,21 +24,19 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Item 1</a>
+              <a href="#banner">Home</a>
             </li>
             <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
+              <a href="#about">About </a>
             </li>
             <li>
-              <a>Item 3</a>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#project">Project</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -48,19 +45,19 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Home</a>
+            <a href="#banner">Home</a>
           </li>
           <li>
-            <a>About </a>
+            <a href="#about">About </a>
           </li>
           <li>
-            <a>Skills</a>
+            <a href="#skills">Skills</a>
           </li>
           <li>
-            <a>Project</a>
+            <a href="#project">Project</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
