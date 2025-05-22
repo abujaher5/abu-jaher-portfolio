@@ -1,6 +1,7 @@
 import { BsDownload } from "react-icons/bs";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { ReactTyped } from "react-typed";
 
 const Banner = () => {
   return (
@@ -11,7 +12,22 @@ const Banner = () => {
       >
         <h3 className="text-xl  font-semibold">Hi Myself</h3>
         <h2 className="text-3xl font-bold">Abu Jaher</h2>
-        <h3 className="text-xl font-semibold">I am a Web Developer</h3>
+        <h3 className="text-xl font-semibold">
+          I'm A{" "}
+          <ReactTyped
+            className="text-xl font-semibold"
+            strings={[
+              "Web Developer",
+              "Frontend Developer",
+              "Junior MERN Developer",
+              " React Developer",
+            ]}
+            typeSpeed={80}
+            backSpeed={80}
+            loop
+          ></ReactTyped>
+        </h3>
+
         <p className="w-2/3">
           I am expertise in creating dynamic and responsive web applications.My
           proficiency in React allows me to build efficient and scalable
