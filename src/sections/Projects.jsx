@@ -21,7 +21,7 @@ const projects = [
     server: "https://github.com/abujaher5/b9a11-server-side",
     title: "FixGadget",
     description:
-      "Fix Gadget is a gadget repairing & gadget parts seller Web Application that allows users to personalize their meal plans and schedule deliveries based on their dietary preferences. Customers can browse available meal options, select meals based on their preferences, and schedule delivery. Meal providers can manage menus, respond to customer orders, and track deliveries.",
+      "Fix Gadget is a gadget repairing & gadget parts seller Web Application that allows users to repair their damage gadget and also buy new product from here. Customers can browse available service options, select service based on their preferences, and schedule delivery. Service providers can manage services, respond to customer booked services and new products orders, and track deliveries.",
   },
   {
     id: 2,
