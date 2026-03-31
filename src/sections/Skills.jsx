@@ -1,10 +1,11 @@
-import { BiLogoNetlify } from "react-icons/bi";
+import { BiLogoNetlify, BiLogoPostgresql } from "react-icons/bi";
 import { DiMongodb } from "react-icons/di";
 import { FaHtml5, FaNodeJs } from "react-icons/fa";
 import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
 import { IoLogoFirebase, IoLogoVercel } from "react-icons/io5";
-import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill, RiReactjsLine } from "react-icons/ri";
 import { SiExpress, SiTailwindcss } from "react-icons/si";
+// import { SiBetterauth } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -56,10 +57,17 @@ const Skills = () => {
                   </h1>
                 </div>
               </div>
+
               <div className="border border-[#272E2C] bg-[#191e36] rounded-md  mobile:w-24 desktop:  mt-6 h-18  p-3 space-y-3">
                 <div className="flex flex-col items-center gap-3">
                   <RiReactjsLine size={20} color="#61dafb" />
                   <h1 className="text-white  font-medium text-xs">React</h1>
+                </div>
+              </div>
+              <div className="border border-[#272E2C] bg-[#191e36] rounded-md  mobile:w-24 desktop:  mt-6 h-18  p-3 space-y-3">
+                <div className="flex flex-col items-center gap-3">
+                  <RiNextjsFill size={20} color="black" className="bg-white" />
+                  <h1 className="text-white  font-medium text-xs">Next</h1>
                 </div>
               </div>
             </div>
@@ -115,6 +123,15 @@ const Skills = () => {
                 <div className="flex flex-col items-center gap-3">
                   <DiMongodb size={20} color="#17ad55" />
                   <h1 className="text-white  font-medium text-xs">MongoDb</h1>
+                </div>
+              </div>
+              <div className="border border-[#272E2C] bg-[#191e36] rounded-md  mobile:w-24 desktop:  mt-6 h-18  p-3 space-y-3">
+                <div className="flex flex-col items-center gap-3">
+                  <BiLogoPostgresql size={20} color="#336791" />
+
+                  <h1 className="text-white  font-medium text-xs">
+                    PostgreSQL
+                  </h1>
                 </div>
               </div>
             </div>
