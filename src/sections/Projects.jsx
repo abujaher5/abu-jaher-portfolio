@@ -1,9 +1,3 @@
-// const Projects = () => {
-//   return <div></div>;
-// };
-
-// export default Projects;
-
 import { Link } from "react-router-dom";
 
 import project1 from "../assets/gadget-repair-20009.web.app_.png";
