@@ -2,7 +2,7 @@ import { BsDownload } from "react-icons/bs";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { ReactTyped } from "react-typed";
-import resume from "../assets/Resume of Abu Jaher_.pdf";
+import resume from "../assets/Resume of Abu Jaher.pdf";
 
 const Banner = () => {
   return (
